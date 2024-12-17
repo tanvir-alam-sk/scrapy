@@ -69,7 +69,7 @@ tripscraper/
 
    ```bash
    cd tripscraper/spiders/
-   scrapy crawl city_hotels
+   scrapy crawl trip_spider
    ```
 
    This will start scraping and save data to the database. To see the result in database go to the `pgadmin` of your database. Then you will be able to see the results.
